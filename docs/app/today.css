@@ -1,0 +1,23 @@
+.panel,.manage-box,.guide-card{border-radius:26px}
+.brand-mark{border-radius:10px;transform:none}
+.part-grid{gap:14px;margin:30px 0 38px}
+.part-card{background:var(--surface);border:1px solid var(--border);color:var(--fg);border-radius:28px;min-height:155px;position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:18px;padding:24px}
+.part-card strong{font-size:1.5rem;color:var(--fg);letter-spacing:-.025em}
+.part-card .part-icon{background:#4a72ff1f;color:var(--accent-ink);border:0;border-radius:16px;font-size:1.65rem;transform:none}
+.part-card:nth-child(even) .part-icon{transform:none}
+.part-card:hover{border-color:var(--accent)}
+details.record-note{margin-top:8px}
+details.record-note summary{font-size:.875rem;color:var(--accent-ink);cursor:pointer;min-height:44px;display:flex;align-items:center;list-style:none}
+details.record-note summary::-webkit-details-marker{display:none}
+details.record-note .hide-note{display:none}
+details.record-note[open] .show-note{display:none}
+details.record-note[open] .hide-note{display:inline}
+.top-hint{display:none}
+.today-header h1{font-size:2rem;margin:0}
+.today-header p{margin:7px 0 0;color:var(--muted);font-size:.875rem}
+.appearance-label{display:block;margin:12px 0 6px;font-size:.875rem}
+#appearance{width:100%;min-height:48px;border:1px solid var(--border);border-radius:14px;padding:10px 12px;background:var(--soft);color:var(--fg)}
+.delete{min-width:44px;min-height:44px}
+.entry{border-radius:20px}
+.paint-cell.preview{background:#4a72ff80}
+@media(max-width:720px){.part-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.part-card{min-height:150px;padding:22px 18px}.part-card strong{font-size:1.25rem}}

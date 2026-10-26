@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Re:Order — a minimal daily tracker for sleep, food, body notes, and medication.">
+<title>Re:Order — daily care, simply recorded</title>
+<link rel="icon" href="app/assets/mark.png" type="image/png">
+<style>
+:root{color-scheme:light dark;--bg:#fafafa;--card:#fff;--text:#151518;--muted:#62626c;--line:#dedee5;--blue:#4a72ff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",sans-serif}main,header,footer{width:min(920px,calc(100% - 40px));margin:auto}header{padding:28px 0;display:flex;align-items:center;gap:12px;font-size:20px;font-weight:700}header img{width:44px;height:44px;object-fit:contain}.hero{padding:60px 0 58px;max-width:720px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.17em;color:var(--muted)}h1{font-size:clamp(42px,7vw,70px);line-height:1.07;letter-spacing:-.055em;margin:18px 0 24px}p{color:var(--muted)}.intro{font-size:20px;max-width:600px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:650;padding:14px 24px;border-radius:16px;min-height:52px}.button.secondary{background:var(--card);color:var(--text);border:1px solid var(--line)}.facts{font-size:14px;margin-top:18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{border:1px solid var(--line);background:var(--card);border-radius:26px;padding:28px}.card .number{font-size:12px;color:var(--muted);letter-spacing:.1em}.card h2{font-size:23px;letter-spacing:-.03em;margin:12px 0}.card p{margin:0;font-size:16px}.data{padding:30px 0 10px;margin:30px 0}.data h2{font-size:27px;letter-spacing:-.03em}.data p{max-width:700px}footer{border-top:1px solid var(--line);padding:24px 0 40px;margin-top:30px;font-size:13px}a:focus-visible{outline:3px solid var(--text);outline-offset:5px}footer a{color:var(--text)}@media(prefers-color-scheme:dark){:root{--bg:#000;--card:#151518;--text:#f5f5f7;--muted:#aaaab2;--line:#36363d}}@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding:36px 0 40px}.card{padding:24px}.intro{font-size:18px}}
+</style>
+</head>
+<body>
+<header><img src="app/assets/mark.png" alt=""><span>Re:Order</span></header>
+<main>
+<section class="hero"><span class="eyebrow">A daily tracking project</span><h1>Daily care,<br>simply recorded.</h1><p class="intro">A quiet place for sleep, meals, body notes, and medication. Record what you choose. Leave the rest.</p><div class="actions"><a class="button" href="app/">Open app</a><a class="button secondary" href="about.html">About the project</a></div><p class="facts">No app account · Records stored in your browser · Dark &amp; light mode</p></section>
+<section class="grid" aria-label="What you can record">
+<article class="card"><span class="number">01 / SLEEP</span><h2>Your own rhythm.</h2><p>Record sleep intervals, naps, and an optional note or dream.</p></article>
+<article class="card"><span class="number">02 / FOOD &amp; DRINK</span><h2>A few taps, a simple record.</h2><p>Add a saved routine, count water or caffeine, and choose whether calories are shown.</p></article>
+<article class="card"><span class="number">03 / BODY</span><h2>As much detail as you want.</h2><p>Keep symptom notes or habit-urge counts. Basic vitals stay collapsed until needed.</p></article>
+<article class="card"><span class="number">04 / MEDICINE</span><h2>A timestamped record.</h2><p>Press and hold to record a reported dose. View inventory and optional care notes.</p></article>
+</section>
+<section class="data"><h2>Your records, your copy.</h2><p>Print a calendar overview or detailed timeline for a selected period. Download a JSON backup to keep a copy or move records.</p><p>Records are local to this browser, with no automatic cloud sync. Clearing browser data can remove them. Keep a backup if you need to retain your records.</p></section>
+</main>
+<footer><p>A personal software prototype. For self-reported tracking, not diagnosis or treatment. Medication records reflect user input, not verified ingestion.</p><a href="about.html">Project background and development</a></footer>
+</body></html>
