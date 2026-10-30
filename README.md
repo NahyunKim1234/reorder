@@ -10,12 +10,9 @@ I built this project to lower the friction of daily habit and health tracking. T
 
 ## Explore
 
-Quick Links
-Live Project Page (https://www.google.com/search?q=docs/index.html) (Requires GitHub Pages enabled)
-Web App Launch (https://www.google.com/search?q=docs/app/index.html)
-Design Decisions & Limitations (https://www.google.com/search?q=PROJECT_NOTES.md)
-Deployment
-Set GitHub Pages source to main branch /docs folder.
+- [Project Page](https://nahyunkim1234.github.io/reorder/)
+- [Web App](https://nahyunkim1234.github.io/reorder/app/)
+- [Project Notes](PROJECT_NOTES.md)
 
 ## Implemented features
 
